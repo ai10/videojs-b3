@@ -3,5 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.add_files('video-js-load.js', 'client');
+    api.use(['deps', 'underscore', 'coffeescript', 'templating', 'handlebars'], 'client');
+    api.add_files(['video-js-load.js', 'video.html', 'video.litcoffee'], 'client');
 });
