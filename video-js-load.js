@@ -16,14 +16,14 @@ var head = document.getElementsByTagName('head')[0];
 var style = document.createElement('link');
 style.type = 'text/css';
 style.rel = "stylesheet";
-style.href = 'http://vjs.zencdn.net/4.1/video-js.css';
+style.href = 'https://vjs.zencdn.net/4.1/video-js.css';
 
 head.appendChild(style);
 
 //Generate a script tag
 var script = document.createElement('script');
 script.type = 'text/javascript';
-script.src = 'http://vjs.zencdn.net/4.1/video.js';
+script.src = 'https://vjs.zencdn.net/4.1/video.js';
 script.onload = videojsLoadCallback;
 script.onerror = videojsErrorCallback;
 
