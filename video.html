@@ -1,7 +1,7 @@
-<template name="video">
+<template name="videojs">
   <video id={{id}} class="video-js vjs-default-skin"
   controls preload="none" width="640" height="264"
-  poster="/{{splashPicture}}">
-  <source src="/videos/{{video}}" type="{{videoType}}" />
+  poster="/{{ poster }}">
+  <source src="/videos/{{ video }}" type="{{videoType}}" />
   </video>
 </template>
