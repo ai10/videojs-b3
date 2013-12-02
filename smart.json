@@ -1,0 +1,9 @@
+{
+    "name": "videojs-b3",
+    "description": "videojs packaged for helpless-b3. http://mib3.meteor.com",
+    "homepage": "https://github.com/charlesjshort/videojs-b3",
+    "author": "Charles J. Short",
+    "version": "0.1.0",
+    "git": "https://github.com/charlesjshort/videojs-b3.git",
+    "packages": {}
+}
